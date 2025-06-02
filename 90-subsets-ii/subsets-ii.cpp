@@ -17,4 +17,9 @@ public:
         return ans ;
 
     }
+
+
+    // can be handles without set aslo just need to add a line in the backtrack function 
+    // add - if (i > start && nums[i] == nums[i - 1]) continue; 
+    //this will detect the duplicates and rest write hte same logic 
 };
