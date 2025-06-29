@@ -17,5 +17,5 @@ public:
         }
 
         return -1;
-    }
+    }//time complexity o(n) just in worst case it can go till o(n2)
 };
