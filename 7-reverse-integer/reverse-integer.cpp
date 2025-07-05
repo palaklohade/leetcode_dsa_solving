@@ -12,5 +12,6 @@ public:
 
     }
     return rev;
-    }
+    }//time compelxity 0(log10(x))
+    //space o(1);
 };
