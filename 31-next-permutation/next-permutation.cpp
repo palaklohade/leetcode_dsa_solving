@@ -19,5 +19,6 @@ public:
         }
         swap(nums[k], nums[l]);
         reverse(nums.begin()+ k + 1 , nums.end());
-    }
+    }//time complexity o(n);
+    //space complexity 0(1);    
 };
